@@ -1,0 +1,140 @@
+:root{
+    --betűszín: rgba(242, 242, 242, 1);
+    --kék: rgba(4, 0, 209, 1);
+    --háttér:  rgba(51, 51, 51, 1);
+    --keret: rgba(79, 79, 79, 1);
+    --gombhatter: rgba(242, 242, 242, 1);
+    --linear1: rgba(224, 224, 224, 1);
+    --linear2: rgba(242, 242, 242, 1);
+
+
+
+}
+.tartalom{
+    height: 500px;
+    width: 240px;
+    margin: auto;
+    background-image: url(ipad.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--háttér);
+    background-position-y: -8px;
+    z-index: -2;
+    
+}
+
+aside{
+    position: relative;
+    width: 28px;
+    height: 112px;
+    left: 0px;
+    top: 9px;
+    background: #232323;
+    border-radius: 4px 0px 0px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 0px;
+    margin-left: auto;
+    }
+    
+.zoldpipa{
+    position: relative;
+    width: 64px;
+    height: 48px;
+    left: 0px;
+    top: 12px;
+    background-color: aquamarine;
+    border-radius: 0 100% 100% 0;
+
+}
+h2{
+    position: relative;
+    top: -30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    padding-left: 11px;
+    color: #F2F2F2;
+    border-left: 9px solid blue;
+    }
+    .szoveg2{
+        width: 200px;
+        position: relative;
+    top: -30px;
+        left: 8.33%;
+        right: 8.33%;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 126%;
+    
+    color: #C7C7C7;
+    }
+    button{
+        position: relative;
+    top: -30px;
+        left: 8.33%;
+        width: 120px;
+        height: 32px;
+        border: 2px solid #BDBDBD;
+        border-radius: 8px;
+    }
+    .hashtagek{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #828282;
+        position: relative;
+    top: -30px;
+        left: 15px;
+        }
+    
+        .ertekeles{
+            position: relative;
+    top: -30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        width: 179px;
+        height: 24px;
+        padding-top: 15px;
+        }
+        
+        .ertek p{
+            display: inline-block;
+            font-size: 12px;
+            font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        align-items: center;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        
+        color: #828282;
+        
+        
+        }
+        .ertek{
+            align-items: center;
+            
+        }
+        .arc{
+            position: relative;
+            left: 15px;
+            top: -50px;
+        background-blend-mode: normal;
+        border: 2px solid #333333;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        }

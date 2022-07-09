@@ -1,0 +1,179 @@
+:root{
+    --betűszín: rgba(242, 242, 242, 1);
+    --kék: rgba(4, 0, 209, 1);
+    --háttér:  rgba(51, 51, 51, 1);
+    --keret: rgba(79, 79, 79, 1);
+    --gombhatter: rgba(242, 242, 242, 1);
+    --linear1: rgba(224, 224, 224, 1);
+    --linear2: rgba(242, 242, 242, 1);
+
+
+
+}
+*{
+    box-sizing: border-box;
+
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--betűszín);
+
+}
+h2{
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: var(--betűszín);
+
+}
+.signin, .signup{
+    display: inline-block;
+    width: 133px;
+    height: 36px;
+    margin: -2px;
+    border: 1px solid black;
+    
+   
+    
+    
+}
+.signin{
+    background: linear-gradient(var(--linear1), var(--linear2));
+    border-radius: 4px 0px 0px 4px;
+    color: var(--kék);
+    border: 1px solid var(--betűszín);
+}
+.signup{
+    border-radius: 0px 4px 4px 0px;
+    color: var(--betűszín);
+    border: 1px solid var(--betűszín);
+
+}
+.gombok{
+    width: 100%;
+    text-align: center;
+}
+.signin p, .signup p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    
+}
+.toggle {
+    position : relative ;
+    display : inline-block;
+    width : 33px;
+    height : 20px;
+    background-color: grey;
+    border-radius: 30px;
+    
+}
+
+.checkbox {
+    display : none;
+}
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+div{
+    display: block;
+    text-align: center;
+    
+}
+form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    color: var(--betűszín);
+}
+button{
+    display: block;
+    text-align: center;
+    margin: auto;
+    color: var(--kék);
+    width: 261px;
+height: 40px;
+border-radius: 8px;
+background: linear-gradient(var(--linear1), var(--linear2));
+font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+.orwith{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--betűszín);
+}
+hr{
+    flex-basis: 39%;
+    height: 1px;
+    
+}
+.ikonok{
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: var(--keret);
+    align-items: center;
+}
+
+svg{
+    margin-top: 5px;
+}
+body{
+    height: 532px;
+    width: 353px;
+    margin: auto;
+   
+    
+}
+form{
+    width: 90%;
+}
+input{
+    width: 100%;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+border-radius: 4px;
+background: #333333;
+border: 1px solid #BDBDBD;
+border-radius: 4px;
+}
+::placeholder{
+    color: var(--betűszín);
+}
+.tartalom{
+    height: 532px;
+    width: 353px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--háttér);
+}

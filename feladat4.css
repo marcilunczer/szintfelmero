@@ -1,0 +1,280 @@
+:root{
+    --betűszín: rgba(242, 242, 242, 1);
+    --kék: rgba(4, 0, 209, 1);
+    --háttér:  rgba(51, 51, 51, 1);
+    --keret: rgba(79, 79, 79, 1);
+    --gombhatter: rgba(242, 242, 242, 1);
+    --linear1: rgba(224, 224, 224, 1);
+    --linear2: rgba(242, 242, 242, 1);
+    --kékhattér: rgba(54, 101, 205, 1);
+
+
+
+}
+*{
+    box-sizing: border-box;
+}
+.desc{
+    height: 54px;
+width: 612px;
+margin: auto;
+border-radius: 4px;
+background-color: var(--háttér);
+margin-bottom: 10px;
+display: flex;
+
+}
+.desc p{
+    margin: auto;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 25px;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+font-feature-settings: 'pnum' on, 'lnum' on, 'ss07' on, 'ss03' on, 'liga' off;
+
+color: var(--betűszín);
+}
+.alap{
+    width: 612px;
+    height: 1368px;
+    margin: auto;
+    background-color: var(--háttér);
+}
+.szöveg{
+    color: var(--betűszín);
+    width: 556px;
+    height: 147px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: justify;
+font-feature-settings: 'pnum' on, 'lnum' on;
+margin: auto;
+position: relative;
+top: 24px;
+background-color: var(--keret);
+
+}
+.szám{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: var(--betűszín);
+width:556px;
+margin: auto;
+text-align: right;
+margin-top: 30px;
+}
+.kepek{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 576px;
+    margin-top: 24px;
+    margin-bottom: 13px;
+}
+.nagy{
+    height: 324px;
+    width: 575px;
+
+
+}
+.kicsi{
+    height: 189px;
+    width: 188px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 11px;
+
+}
+.ikonok{
+    width: 575px;
+    height: 72px;
+    margin: auto;
+    border: 1px dashed var(--keret);
+border-radius: 8px;
+display: flex;
+justify-content: center;
+
+}
+.icons{
+    width: 253.8px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+hr{
+    margin-top: 26px;
+    margin-bottom: 20px;
+    width: 575px;
+    color: var(--keret);
+}
+.bikeep{
+    width: 575px;
+    margin: auto;
+    display: flex;
+}
+.bikeep img{
+    width: 131px;
+    height: 52px;
+}
+.bikeszöv{
+    width: 444px;
+    background-color: var(--keret);
+    height: 52px;
+}
+.bikeszöv a{
+    text-decoration: none;
+    color: var(--betűszín);
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+margin: 0;
+padding: 0;
+    
+}
+.bikeszöv p{
+    color: var(--betűszín);   
+    font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+margin: 0;
+padding: 0;
+}
+.sr{
+    margin-top: 59px;
+    color: var(--keret);
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+font-feature-settings: 'pnum' on, 'lnum' on;
+margin-bottom: 10px;
+    
+}
+.dobozok{
+    width: 512px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 0px;
+    height: fit-content;
+}
+.doboz{
+    width: 160px;
+    height: 148px;
+    background-color: var(--kékhattér);
+    Font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 25px;
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'pnum' on, 'lnum' on, 'ss07' on, 'ss03' on, 'liga' off;
+color: var(--betűszín);
+padding: 0px;
+margin: 0px;
+
+}
+.gombok{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.previous{
+    width: 136px;
+    height: 40px;
+    border: 1px solid var(--betűszín);
+border-radius: 8px;
+display: flex;
+background-color: var(--keret);
+
+}
+.next{
+    width: 102px;
+    height: 40px;
+    border: 1px solid #F2F2F2;
+border-radius: 8px;
+display: flex;
+background-color: var(--kék);
+}
+.previous p, .next p{
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #F2F2F2;
+text-transform: uppercase;
+font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+.searchbar{
+    width: 564px;
+    display: flex;
+    margin: auto;
+    height: 32px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 33px;
+}
+.http{
+    width: 50px;
+    height: 32px;
+    background-color: var(--keret);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.text{
+    width: 514px;
+    height: 32px;
+    padding: 0px;
+    margin: 0px;
+}
+.http p{
+    margin: auto;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'liga' off;
+
+color: var(--betűszín);
+}
+.plusz{
+    margin-top: 14.17px;
+    text-align: center;
+    margin-bottom: 28.17px;
+}
