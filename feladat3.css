@@ -1,0 +1,113 @@
+:root{
+    --txtcolor: rgba(242, 242, 242, 1);
+    --blue: rgba(4, 0, 209, 1);
+    --bckground:  rgba(51, 51, 51, 1);
+    --border: rgba(79, 79, 79, 1);
+    --btbcg: rgba(242, 242, 242, 1);
+    --linear1: rgba(224, 224, 224, 1);
+    --linear2: rgba(242, 242, 242, 1);
+
+
+
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    position:absolute;
+    bottom: 0;
+    width: 1921px;
+    background-color: var(--bckground);
+    display: flex;
+    justify-content:space-evenly;
+    height: 548px;
+    align-items: center;
+    
+    
+}
+tr{
+    text-align: left;
+}
+table{
+    width: 780px;
+    height: 305px;
+}
+.questions{
+    width: 458px;
+    height: 420px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+button{
+    gap: 8px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    color: var(--blue);
+    width: 261px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: var(--blue);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--txtcolor);
+    position: relative;
+}
+th{
+    Font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 170%;
+    align-self:baseline;
+    color: #F2F2F2;
+}
+td{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 200%;
+    color: #F2F2F2;
+}
+h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 170%;
+    color: var(--txtcolor);
+    }
+label{
+    color: var(--txtcolor);
+}
+.textbox{
+    width: 381px;
+    height: 40px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a{
+    color: var(--txtcolor);
+}
+form{
+    position: relative;
+    top: -30px;
+}
+.date{
+    position: absolute;
+    bottom: 0px;
+    left:919px;
+    color: var(--txtcolor);
+}
+button img{
+    position: relative;
+    top: 2px;
+}
