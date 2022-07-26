@@ -49,7 +49,7 @@ button{
     margin: auto;
     color: var(--blue);
     width: 261px;
-    height: 40px;
+    height: 61px;
     border-radius: 8px;
     background-color: var(--blue);
     font-style: normal;
@@ -58,6 +58,7 @@ button{
     line-height: 28px;
     color: var(--txtcolor);
     position: relative;
+    cursor: pointer;
 }
 th{
     Font-family: 'Roboto';
@@ -110,4 +111,7 @@ form{
 button img{
     position: relative;
     top: 2px;
+}
+a{
+    text-decoration: none;
 }

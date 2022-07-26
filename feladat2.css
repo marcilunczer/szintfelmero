@@ -29,7 +29,7 @@ aside{
     width: 28px;
     height: 112px;
     left: 0px;
-    top: -53px;
+    top: -108px;
     background: #232323;
     border-radius: 4px 0px 0px 4px;
     display: flex;
@@ -42,16 +42,25 @@ aside{
     
 .greentick{
     position: relative;
-    width: 64px;
+    width: 48px;
     height: 48px;
     left: 0px;
     top: 12px;
     background-color: #32A000;
-    border-radius: 0 100% 100% 0;
+    
+}
+.greentick2{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    left: 24px;
+    top: -36px;
+    background-color: #32A000;
+    border-radius: 100%
 }
 .number{
     position: relative;
-    top: -60px;
+    top: -115px;
     left: 15px;
     color: var(--txtcolor);
     font-size: 12px;
@@ -60,7 +69,7 @@ aside{
 .date{
     position: relative;
     display: inline;
-    top: -120px;
+    top: -175px;
     right: -130px;
     color: var(--txtcolor);
     font-size: 12px;
@@ -72,7 +81,7 @@ aside{
 }
 h2{
     position: relative;
-    top: -130px;
+    top: -180px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -89,7 +98,7 @@ h2{
 .text2{
     width: 200px;
     position: relative;
-    top: -130px;
+    top: -180px;
     left: 8.33%;
     right: 8.33%;
     font-family: 'Roboto';
@@ -115,8 +124,9 @@ button{
     font-size: 14px;
     width: 120px;
     position: relative;
-    top: -135px;
+    top: -185px;
     left: -48px;
+    cursor: pointer;
 }
 .hashtag{
     font-family: 'Roboto';
@@ -126,13 +136,13 @@ button{
     line-height: 14px;
     color: #828282;
     position: relative;
-    top: -135px;
+    top: -190px;
     left: 8.33%;
 }
     
 .ratings{
     position: relative;
-    top: -135px;
+    top: -185px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -160,7 +170,7 @@ button{
 .face{
     position: relative;
     left: 15px;
-    top: -50px;
+    top: -100px;
     background-blend-mode: normal;
     border: 2px solid #333333;
     border-radius: 100%;
@@ -170,7 +180,7 @@ button{
 
 .tick{
     position: relative;
-    top: -605px;
-    left: 25px;
+    top: -652px;
+    left: 35px;
     z-index: 1000;
 }
